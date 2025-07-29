@@ -39,7 +39,7 @@ sub closest_freq_index {
     return $best_idx;
 }
 
-print "Paste your dataset, one pair of hex values per line, separated by comma. Ctrl+D to end input.\n";
+print "Paste the output of autovon, without []. Ctrl+D to end input.\n";
 
 my $decoded = '';
 
